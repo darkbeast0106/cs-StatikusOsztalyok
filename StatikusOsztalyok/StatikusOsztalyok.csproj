@@ -7,4 +7,34 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="files\egyesulet.txt" />
+    <None Remove="files\esemenytipus.txt" />
+    <None Remove="files\ferfikernev.txt" />
+    <None Remove="files\noikernev.txt" />
+    <None Remove="files\sportag.txt" />
+    <None Remove="files\veznev.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="files\egyesulet.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\esemenytipus.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\ferfikernev.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\noikernev.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\sportag.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\veznev.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
